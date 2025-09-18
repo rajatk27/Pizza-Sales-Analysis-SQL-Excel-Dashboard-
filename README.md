@@ -67,7 +67,7 @@ pizza_sales_Project/
 ---
 
 ## 📸 Dashboard Preview
-![Pizza Sales Dashboard](Dashboard/Images/dashboard_screenshot.png)  
+![Pizza Sales Dashboard](Dashboard/dashboard_screenshot.png)  
 
 ---
 
