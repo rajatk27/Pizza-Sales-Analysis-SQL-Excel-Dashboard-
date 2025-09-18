@@ -1,68 +1,104 @@
-🍕 Pizza-Sales-Analysis-using-Excel-and-SQL
+# 🍕 Pizza Sales Analysis (SQL + Excel Dashboard)
 
-This project analyzes pizza sales data for a fictional pizza restaurant using **SQL** and presents the insights in a professional, interactive **Excel dashboard**.
-
----
-
-🔍 Project Goals
-
-- Understand customer and sales trends in a pizza restaurant.
-- Identify top-performing pizzas, sizes, and categories.
-- Track monthly and daily sales performance.
-- Build an interactive and professional Excel dashboard.
-- Practice writing real-world SQL queries for data analysis.
+## 📖 Project Overview
+This project analyzes **pizza sales data** using **SQL** for data exploration and **Excel** for interactive dashboard creation.  
+The goal is to generate key business insights, identify sales trends, and highlight best-selling pizzas to support data-driven decision-making.  
 
 ---
 
-📊 Excel Dashboard Features
-
-- 📈 Monthly Revenue & Order Trends  
-- 🏆 Top 5 Best-Selling Pizzas by Revenue  
-- 📦 Total Orders, Revenue, and Average Order Value (AOV)  
-- 📊 Pizza Category and Size Performance  
-- 📅 Daily and Weekly Order Analysis  
-- 🧩 Interactive Dashboard with Slicers  
+## 🎯 Key Objectives
+- Write SQL queries to extract and analyze sales data.  
+- Build an Excel dashboard to visualize KPIs and trends.  
+- Provide actionable insights into customer ordering behavior.  
 
 ---
 
-📁 Project Structure
+## 📊 SQL Analysis & KPIs
 
-Pizza-Sales-Dashboard/
-│
-├── README.md                      # Project overview and instructions
-├── Data/
-│   └── pizza_sales.csv            # Raw or cleaned dataset
-│
-├── SQL/
-│   └── pizza_queries.sql          # SQL queries used for data analysis
+### A. KPI’s
+1. **Total Revenue**  
+2. **Average Order Value**  
+3. **Total Pizzas Sold**  
+4. **Total Orders**  
+5. **Average Pizzas Per Order**  
+
+### B. Daily Trend for Total Orders  
+📈 Identifies sales fluctuations over time.  
+
+### C. Hourly Trend for Orders  
+🕑 Shows customer ordering behavior by time of day.  
+
+### D. % of Sales by Pizza Category  
+🍕 Compares revenue contribution of categories (Classic, Supreme, etc.).  
+
+### E. % of Sales by Pizza Size  
+📏 Distribution of sales across different pizza sizes.  
+
+### F. Total Pizzas Sold by Pizza Category  
+🔍 Highlights which categories drive the highest sales volume.  
+
+### G. Top 5 Best Sellers by Total Pizzas Sold  
+🏆 Lists the most popular pizzas.  
+
+### H. Bottom 5 Best Sellers by Total Pizzas Sold  
+📉 Identifies underperforming pizzas.  
+
+---
+
+## 📂 Project Structure
+pizza_sales_Project/
 │
 ├── Dashboard/
-│   └── pizza_dashboard.xlsx       # Final Excel dashboard file
+│ ├── Images/ # Dashboard screenshots
+│ └── Pizza_Sales_Analysis.xlsx # Excel dashboard with KPIs, charts, analysis
 │
-├── Images/
-│   └── dashboard_screenshot.png   # Screenshot of the dashboard for README
+├── Data/
+│ └── pizza_sales_dataset.csv # Raw pizza sales data
+│
+├── SQL/
+│ ├── pizza_sales_queries.sql # Clean SQL queries
+│ └── pizza_sales_queries.docx # SQL queries with output screenshots
+│
+└── README.md # Project overview & instructions
 
 
 ---
 
-🔍 Description of Folders & Files
+## 📸 Dashboard Preview
+![Pizza Sales Dashboard](Dashboard/Images/dashboard_screenshot.png)  
 
-File/Folder	                        Description
+---
 
-README.md	                  Explains the project, goals, tools used, and how to use the dashboard.
-Data/	                      Contains the pizza sales dataset in .csv or .xlsx format.
-SQL/	                      All SQL queries used for analyzing the dataset.
-Dashboard/	                The final Excel dashboard with charts, slicers, KPIs, etc.
-Images/	                    Screenshots or visual previews used in the README file.
+## 🚀 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/pizza_sales_Project.git
 
-🧠 SQL Queries Covered
-Stored in SQL_Queries/:
 
-Total orders and total revenue
-Monthly sales trend using MONTH() and DATE_FORMAT()
-Best-selling pizzas (by quantity and revenue)
-Category-wise revenue and order count
-Top 3 pizzas per category
-Revenue percentage contribution
-Cumulative revenue tracking
-Window functions and subqueries
+Open pizza_sales_queries.sql to explore the analysis queries.
+
+Open Pizza_Sales_Analysis.xlsx inside the Dashboard/ folder to view the interactive dashboard.
+
+🛠️ Tools & Technologies
+
+SQL → Data analysis & querying
+
+Excel → Dashboard creation & visualization
+
+Dataset → Pizza sales transactions
+
+📈 Insights
+
+Peak order times occur during evenings and weekends.
+
+Large-size pizzas contribute the highest share of revenue.
+
+Classic category pizzas dominate sales volume.
+
+A few pizzas contribute disproportionately to revenue, while several underperform.
+
+📬 Contact
+
+👤 Your Name
+🔗 LinkedIn
+ | GitHub
