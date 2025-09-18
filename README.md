@@ -62,6 +62,8 @@ pizza_sales_Project/
 └── README.md # Project overview & instructions
 
 
+
+
 ---
 
 ## 📸 Dashboard Preview
@@ -75,9 +77,9 @@ pizza_sales_Project/
    git clone https://github.com/yourusername/pizza_sales_Project.git
 
 
-Open pizza_sales_queries.sql to explore the analysis queries.
+2. Open pizza_sales_queries.sql to explore the analysis queries.
 
-Open Pizza_Sales_Analysis.xlsx inside the Dashboard/ folder to view the interactive dashboard.
+3. Open Pizza_Sales_Analysis.xlsx inside the Dashboard/ folder to view the interactive dashboard.
 
 🛠️ Tools & Technologies
 
@@ -99,6 +101,6 @@ A few pizzas contribute disproportionately to revenue, while several underperfor
 
 📬 Contact
 
-👤 Your Name
-🔗 LinkedIn
- | GitHub
+👤 Rajat Kumar Berlia
+🔗 LinkedIn 
+ | GitHub 
